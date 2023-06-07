@@ -1,0 +1,17 @@
+<view class="content">
+  <view class="top">
+    <view>
+      <image src="{{path}}"></image>
+    </view>
+    <view class="Name">{{name}}</view>
+  </view>
+  <view class="info">
+    <view class="follow">关注：75</view>
+    <view class="fans">粉丝：502</view>
+    <view class="visit">7天访问量：1080</view>
+  </view>
+  <view class="button-group">
+    <button class="tips" bindtap="onTipsTap">我要爆料</button>
+    <button class="setting" bindtap="onSettingTap">系统设置</button>
+  </view>
+</view>

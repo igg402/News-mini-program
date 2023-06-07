@@ -1,0 +1,47 @@
+<!--pages/list/list.wxml-->
+<!-- 引入 -->
+<import src="../newslists/newslists"/>
+<!-- 导航栏start -->
+<view class="head">
+  <view class="first">
+    <scroll-view class="scroll-view_class" scroll-x="true" enable-flex="true">
+      <view class="scroll-view_class">
+        <view>
+          <view class="{{flag ==0? 'choose':'nochoose'}}" id="0" bindtap="select">推荐</view>
+        </view>
+        <view>
+          <view class="{{flag ==1? 'choose':'nochoose'}}" id="1" bindtap="select">科技</view>
+        </view>
+        <view>
+          <view class="{{flag ==2? 'choose':'nochoose'}}" id="2" bindtap="select">财经</view>
+        </view>
+        <view>
+          <view class="{{flag ==3? 'choose':'nochoose'}}" id="3" bindtap="select">图片</view>
+        </view>
+        <view>
+          <view class="{{flag ==4? 'choose':'nochoose'}}" id="4" bindtap="select">教育</view>
+        </view>
+        <view>
+          <view class="{{flag ==5? 'choose':'nochoose'}}" id="5" bindtap="select">房地产</view>
+        </view>
+        <view>
+          <view class="{{flag ==6? 'choose':'nochoose'}}" id="6" bindtap="select">体育</view>
+        </view>
+        <view>
+          <view class="{{flag ==7? 'choose':'nochoose'}}" id="7" bindtap="select">汽车</view>
+        </view>
+        <view>
+          <view class="{{flag ==8? 'choose':'nochoose'}}" id="8" bindtap="select">时尚</view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>
+<!-- 导航栏over -->
+<!-- 列表信息显示 -->
+<view class="list">
+<view wx:for="{{list}}" wx:key="index" bindtap="tiao" data-mark='{{item.id}}'>
+  <template is ="newslist" data="{{...item}}"></template>
+</view>
+</view>
+

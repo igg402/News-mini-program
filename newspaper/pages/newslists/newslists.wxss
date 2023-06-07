@@ -1,0 +1,23 @@
+/* pages/newslists/newslists.wxss */
+.newslist{
+  display: flex;
+  margin-bottom: 20rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.text{
+  flex: 7;
+  padding: 20rpx;
+}
+.title{
+  font-size: 36rpx;
+  margin-bottom:30rpx;
+  font:bold;
+}
+.img{
+  flex: 3;
+}
+.img image{
+  width: 200rpx;
+  height: 200rpx;
+}

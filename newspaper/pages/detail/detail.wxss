@@ -1,0 +1,17 @@
+/* pages/detail/detail.wxss */
+.title{
+  font-size: 40px;
+  font-weight: bold;
+  padding:20rpx
+}
+
+.title{
+  font-size: 55rpx;
+  color: blueviolet;
+}
+.content{
+  text-indent: 2em;
+  line-height: 40rpx;
+  padding: 20rpx;
+  text-align: justify;
+}

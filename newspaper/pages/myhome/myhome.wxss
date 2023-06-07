@@ -1,0 +1,24 @@
+/* pages/myhome/myhome.wxss */
+.top{
+  display: flex;
+  flex: row;
+  background-color: red;
+}
+.top image{
+  border-radius: 50%;
+  margin-left: 10rpx;
+  height: 250rpx;
+  width: 250rpx;
+}
+.Name{
+  margin-top: 200rpx;
+
+  font-size: large;
+}
+.info{
+  background-color: red;
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: space-around;
+}

@@ -1,0 +1,6 @@
+<!--pages/detail/detail.wxml-->
+<view class="title">{{dataList.title}}</view>
+
+<view class="subTitle"><text class="time">{{dataList.time}}</text></view>
+<view><image src="{{dataList.imgUrl}}"></image></view>
+<view class="content">{{dataList.content}}</view>

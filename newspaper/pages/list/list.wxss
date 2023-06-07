@@ -1,0 +1,43 @@
+/* pages/list/list.wxss */
+/* 引入样式 */
+@import '../newslists/newslists.wxss';
+.head{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 36px;
+  background:cornsilk;
+  color: black;
+}
+.first{
+  width: 85%;
+  height: 36px;
+}
+.scroll-view_class{
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+}
+.choose{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: red;
+}
+.nochoose{
+  color: black;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 30rpx;
+}
+.list{
+  margin-top: 30rpx;
+}

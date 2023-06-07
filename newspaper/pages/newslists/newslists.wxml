@@ -1,0 +1,15 @@
+<!--pages/newslists/newslists.wxml-->
+<template name='newslist'>
+  <view class="newslist">
+    <view class="text">
+      <view class="title">{{title}}</view>
+      <view>{{time}}</view>
+    </view>
+
+    <view class="img">
+      <image src="{{imgUrl}}"></image>
+    </view>
+
+    
+  </view>
+</template>
